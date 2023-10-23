@@ -1,0 +1,24 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  align-items: center;
+  width: 330px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.cardContainer h2 {
+  padding: 10px;
+}
+
+.cardContainer p {
+  padding: 10px;
+  font-size: 20px;
+  opacity: 0.6;
+}

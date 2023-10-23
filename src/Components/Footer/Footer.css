@@ -1,0 +1,30 @@
+.Footer {
+  padding: 16px 32px;
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.Footer p {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.Footer button {
+  background-color: #000;
+  color: #fff;
+  margin: 16px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.Footer button:hover {
+  background-color: rgb(197, 198, 198);
+  color: #000;
+}
+
+.Footer h4 span {
+  border-bottom: 1px solid black;
+  margin: 15px 0;
+}

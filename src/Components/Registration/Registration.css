@@ -1,0 +1,20 @@
+.registration {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.registration label {
+  margin: 10px 0;
+}
+
+.registration label input {
+  width: 400px;
+  padding: 8px 16px;
+}
+
+.registration button {
+  padding: 12px;
+  justify-content: flex-start;
+}

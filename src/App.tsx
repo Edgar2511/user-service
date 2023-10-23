@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Navbar } from "./Components/Navbar/Navbar";
+import { Offer } from "./Components/Main/Offer/Offer";
+import { Title } from "./Components/Main/Title/Title";
+import { Main } from "./Components/Main/Main";
+import { Footer } from "./Components/Footer/Footer";
+import { Registration } from "./Components/Registration/Registration";
+import { PhoneModel } from "./Components/PhoenModel/PhoneModel";
+import { GetInputValue } from "./Components/GetInputValue/GetInputValue";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Navbar /> */}
+      {/* <Main /> */}
+      {/* <Footer /> */}
+      {/* <Registration /> */}
+      {/* <PhoneModel /> */}
+      <GetInputValue />
     </div>
   );
 }

@@ -1,0 +1,33 @@
+.Title {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 36.6px;
+  font-family: "Lato", sans-serif;
+}
+
+.Title h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.Title p {
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 485px;
+  background-image: url("https://www.w3schools.com/w3images/sound.jpg");
+  padding: 0.15px 16px;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.imageWrapper p {
+  padding: 12px 24px;
+  background-color: #fff;
+}

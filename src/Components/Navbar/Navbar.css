@@ -1,0 +1,20 @@
+.Navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+}
+
+.Navbar a {
+  width: 100%;
+  padding: 8px 16px;
+  font: 12px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  background-color: #f1f1f1;
+}
+
+.Navbar a:hover {
+  background-color: rgb(198, 197, 197);
+}
